@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<promissory_note>
+    <lender>
+        <name>Alice</name>
+        <address>123 Main Street</address>
+        <city>New York</city>
+        <state>NY</state>
+        <zip>10001</zip>
+    </lender>
+    <borrower>
+        <name>Bob</name>
+        <address>456 Elm Street</address>
+        <city>Los Angeles</city>
+        <state>CA</state>
+        <zip>90001</zip>
+    </borrower>
+    <amount>1000</amount>
+    <due_date>2022-12-31</due_date>
+</promissory_note>
