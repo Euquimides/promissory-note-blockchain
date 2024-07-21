@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project demonstrates a possible implementation of electronic transferable values using blockchain technology as a registry. It focuses on the creation, encryption, and transfer of promissory notes, leveraging blockchain for secure and verifiable transactions.
+This project demonstrates a possible barebones implementation of electronic transferable values using blockchain technology as a registry. It focuses on the creation, encryption, and transfer of promissory notes, leveraging blockchain for secure and verifiable transactions registry.
 
 It is composed of two API services:
 
-1. A Blockchain service to register the transfer of the promissory note.
+1. A Blockchain service to register the transfer of the promissory notes.
 2. A XML processing service for adding ownership, encrypting and decrypting xml files (as a concept of a promissory note).
 
 ## Includes Ideas For
@@ -26,7 +26,7 @@ It is composed of two API services:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repository/promissory-note-blockchain.git
+   git clone https://github.com/Euquimides/promissory-note-blockchain.git
    ```
 2. Navigate to the project directory.
 3. Install the required dependencies:
@@ -57,7 +57,7 @@ It is composed of two API services:
 
 ## Usage
 
-The project can be used to simulate the creation, encryption and transfer of a promissory note using blockchain to register the transactions. Run `main.py` to see an example.
+The project can be used to simulate the creation, encryption and transfer of a promissory note using blockchain to register the transactions. It was created purely for academic and study purposes. Run `main.py` to see an example. 
 
 ## License
 
