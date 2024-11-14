@@ -12,7 +12,7 @@ This class provides methods to sign and verify XML files, add, change, and remov
 
 class XMLProcessor:
     def __init__(self):
-        load_dotenv()
+        load_dotenv(dotenv_path="src/.env")
         self.private_key_path = os.getenv("PRIVATE_KEY_PATH")
         self.cert_path = os.getenv("CERT_PATH")
 

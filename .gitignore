@@ -1,2 +1,42 @@
+# Ignore Python cache files
 src/blockchain/__pycache__
 src/processor/__pycache__
+
+# Ignore certificates
+src/certs/*
+
+# Ignore data files
+src/data/*
+
+# Ignore environment files
+src/.env
+
+# Ignore virtual environment
+src/.venv
+
+# Ignore IDE settings
+src/.idea
+.idea
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Ignore test output
+test-results/
